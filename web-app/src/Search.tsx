@@ -65,7 +65,7 @@ const formatData = (collaboratorData: any): any => {
     return ({
       genres,
       image: collaborator.image_url,
-      compatibilityScore: collaborator.compatibilityScore || 0,
+      compatibilityScore: collaborator.compatibility_score,
       name: collaborator.name,
     });
   })
@@ -80,7 +80,7 @@ const Search = () => {
       console.log(values);
       const result = await axios.post("https://msdocs-python-webapp-quickstart-rrr.azurewebsites.net/collaborators", values);
       setName(values.name);
-      setData(formatData(result.data.obj.obj));
+      setData(formatData(result.data.collaborators));
     } catch(error) {
       console.log(error);
       alert("API Request failed!");
