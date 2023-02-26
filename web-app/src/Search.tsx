@@ -61,10 +61,17 @@ const Search = () => {
   const [name, setName] = useState(null);
 
   const onSubmit = async (values: any, cb: Function) => {
-    const result = await axios("https://63fa2008473885d837d8ddec.mockapi.io/collaborators");
-    cb();
-    setName(values.name);
-    setData(result.data);
+    console.log(values);
+    try {
+      const result = await axios.post("https://63fa2008473885d837d8ddec.mockapi.io/collaborators", values);
+      setName(values.name);
+      setData(result.data);
+    } catch(error) {
+      console.log(error);
+      alert("API Request failed!");
+    } finally {
+      cb();
+    }
   };
 
   const hasData = data.length > 0;
