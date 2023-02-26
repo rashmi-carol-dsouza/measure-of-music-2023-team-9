@@ -65,7 +65,7 @@ const formatData = (collaboratorData: any): any => {
     return ({
       genres,
       image: collaborator.image_url,
-      compatibilityScore: 0,
+      compatibilityScore: collaborator.compatibilityScore || 0,
       name: collaborator.name,
     });
   })
