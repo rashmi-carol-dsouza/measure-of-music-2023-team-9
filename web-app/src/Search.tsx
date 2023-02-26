@@ -1,21 +1,30 @@
 import { useState, useMemo, useEffect } from "react";
-import SearchForm from "./SearchForm";
+import SearchForm, { Option } from "./SearchForm";
 import Table from "./Table";
 import axios from "axios";
 
+import { genre } from './options';
 
 type GenreProps = {
-  values: string[]
-}
+  values: string[];
+};
 
 const Genres = ({ values }: GenreProps) => {
   // Loop through the array and create a badge-like component instead of a comma-separated string
   return (
     <>
-      {values.map((genre, idx) => {
+      {values.map((genreId, idx) => {
+        const currentGenre = genre.find((g: Option) => g.id === genreId);
+
+        if(!currentGenre) {
+          return null;
+        }
+
+        const style = { background: currentGenre.color};
+
         return (
-          <span key={idx} className="badge">
-            {genre}
+          <span key={idx} className="badge" style={style}>
+            {currentGenre.name}
           </span>
         );
       })}
@@ -23,18 +32,46 @@ const Genres = ({ values }: GenreProps) => {
   );
 };
 
-type CellProps = {
+type PhotoProps = {
+  url: string;
+};
+
+const Photo = ({ url }: PhotoProps) => {
+  return (
+    <>
+      <img src={url} alt="artist photo" />
+    </>
+  );
+};
+
+type GenreCellProps = {
   cell: {
-    value: string[]
-  }
-}
+    value: string[];
+  };
+};
+
+type PhotoCellProps = {
+  cell: {
+    value: string;
+  };
+};
 
 const Search = () => {
   const [data, setData] = useState([]);
+  const [name, setName] = useState(null);
 
-  const onSubmit = async () => {
-    const result = await axios("https://63fa2008473885d837d8ddec.mockapi.io/collaborators");
-    setData(result.data);
+  const onSubmit = async (values: any, cb: Function) => {
+    console.log(values);
+    try {
+      const result = await axios.post("https://63fa2008473885d837d8ddec.mockapi.io/collaborators", values);
+      setName(values.name);
+      setData(result.data);
+    } catch(error) {
+      console.log(error);
+      alert("API Request failed!");
+    } finally {
+      cb();
+    }
   };
 
   const hasData = data.length > 0;
@@ -63,17 +100,18 @@ const Search = () => {
         // Second group columns
         columns: [
           {
+            Header: "Photo",
+            accessor: "image",
+            Cell: ({ cell: { value } }: PhotoCellProps) => <Photo url={value} />,
+          },
+          {
             Header: "Genre(s)",
             accessor: "genres",
-            Cell: ({ cell: { value } }: CellProps) => <Genres values={value} />,
+            Cell: ({ cell: { value } }: GenreCellProps) => <Genres values={value} />,
           },
           {
-            Header: "Energy",
-            accessor: "energy",
-          },
-          {
-            Header: "Past Collaborations",
-            accessor: "pastCollabs",
+            Header: "Compatibility Score",
+            accessor: "compatibilityScore",
           },
         ],
       },
@@ -84,13 +122,14 @@ const Search = () => {
   return (
     <div className="search">
       <h2>Get Started</h2>
-      <SearchForm handleSubmit={onSubmit}/>
+      <SearchForm handleSubmit={onSubmit} />
 
       {hasData && (
         <div className="results">
           <h3>
-            Best Collabs for <span className="text-green">PinkPanthress</span>
+            Hey <span className="text-green">{name}</span>
           </h3>
+          <p>Here are the artists we think you should collaborate with</p>
           <Table columns={columns} data={data} />
         </div>
       )}
