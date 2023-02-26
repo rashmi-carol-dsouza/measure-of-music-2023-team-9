@@ -1,0 +1,654 @@
+{
+    "genre": [
+        {
+            "id": 478636,
+            "name": "Soundtracks",
+            "type": "parent-genre"
+        },
+        {
+            "id": 468670,
+            "name": "Bachata",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462989,
+            "name": "Arabic Folk",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462988,
+            "name": "Arabic Classical",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462987,
+            "name": "Arabic Dance",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462986,
+            "name": "Arabic Rock",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462985,
+            "name": "Arabic Hip-Hop/Rap",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462984,
+            "name": "Arabic Pop",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462983,
+            "name": "Arabic Children's Music",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462982,
+            "name": "African Folk",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462981,
+            "name": "African Classical",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462980,
+            "name": "African Dance",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462979,
+            "name": "African Rock",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462978,
+            "name": "African Hip-Hop/Rap",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462977,
+            "name": "African Pop",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462976,
+            "name": "African Children's Music",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462975,
+            "name": "Indian Folk",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462974,
+            "name": "Indian Classical",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462973,
+            "name": "Indian Dance",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462972,
+            "name": "Indian Rock",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462971,
+            "name": "Indian Hip-Hop/Rap",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462970,
+            "name": "Indian Pop",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462969,
+            "name": "Indian Children's Music",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462968,
+            "name": "European Folk",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462967,
+            "name": "European Dance",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462966,
+            "name": "European Rock",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462965,
+            "name": "European Hip-Hop/Rap",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462964,
+            "name": "European Pop",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462963,
+            "name": "European Children's Music",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462962,
+            "name": "Latin Folk",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462961,
+            "name": "Latin Classical",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462960,
+            "name": "Latin Dance",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462959,
+            "name": "Latin Rock",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462958,
+            "name": "Latin Hip-Hop/Rap",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462957,
+            "name": "Latin Pop",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462956,
+            "name": "Latin Children's Music",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462955,
+            "name": "Arabic",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462954,
+            "name": "African",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462953,
+            "name": "Indian",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462952,
+            "name": "European",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462951,
+            "name": "Latin",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462950,
+            "name": "Delta Blues",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462949,
+            "name": "Motown",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462948,
+            "name": "Ghazals",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462947,
+            "name": "Dancehall",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462946,
+            "name": "Grunge",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462945,
+            "name": "Drum & Bass",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462944,
+            "name": "Trap",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462943,
+            "name": "Doo Wop",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462942,
+            "name": "Chicago Blues",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462941,
+            "name": "Hard Rock",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462940,
+            "name": "Gangsta Rap",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462939,
+            "name": "Comedy",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462938,
+            "name": "Indie Pop",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462937,
+            "name": "Alternative Rap",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462936,
+            "name": "Opera",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462935,
+            "name": "Dubstep",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462934,
+            "name": "Gospel",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462933,
+            "name": "Funk",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462932,
+            "name": "Spoken Word",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462931,
+            "name": "Ambient",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462930,
+            "name": "Indie Rock",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462929,
+            "name": "Punk",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462928,
+            "name": "Folk",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462927,
+            "name": "Trance",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462926,
+            "name": "Vocal",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462925,
+            "name": "K-Pop",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462924,
+            "name": "J-Pop",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462923,
+            "name": "Bluegrass",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462922,
+            "name": "Rockabilly",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462921,
+            "name": "Neo-Soul",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462920,
+            "name": "Soft Rock",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462919,
+            "name": "Standards",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462918,
+            "name": "Hard Bop",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462917,
+            "name": "Classic Rock",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462916,
+            "name": "Industrial",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462915,
+            "name": "New Wave",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462914,
+            "name": "Swing",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462913,
+            "name": "Dirty South",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462912,
+            "name": "Smooth Jazz",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462911,
+            "name": "Psychedelic",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462910,
+            "name": "Musicals",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462909,
+            "name": "Choral",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462908,
+            "name": "Big Band",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462907,
+            "name": "Oldies",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462906,
+            "name": "East Coast Rap",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462905,
+            "name": "Others",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462904,
+            "name": "Salsa",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462903,
+            "name": "Holiday",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462902,
+            "name": "Instrumental",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462901,
+            "name": "Easy Listening",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462900,
+            "name": "Blues",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462899,
+            "name": "Alternative Rock",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462898,
+            "name": "Metal",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462897,
+            "name": "Techno",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462896,
+            "name": "Reggae",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462895,
+            "name": "Country",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462894,
+            "name": "New Age",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462893,
+            "name": "Jazz",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462892,
+            "name": "Classical",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462891,
+            "name": "Singer/Songwriter",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462890,
+            "name": "House",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462889,
+            "name": "R&B/Soul",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462888,
+            "name": "Alternative",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462887,
+            "name": "Electronic",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462886,
+            "name": "Orchestral",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462885,
+            "name": "Dance",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462884,
+            "name": "Rock",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462883,
+            "name": "Hip-Hop/Rap",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462882,
+            "name": "Pop",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462881,
+            "name": "Children's Music",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462880,
+            "name": "Samba",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462879,
+            "name": "Christian",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462878,
+            "name": "Klezmer",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462877,
+            "name": "Sertanejo",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462876,
+            "name": "Merengue",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462875,
+            "name": "Cumbia",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462874,
+            "name": "Polka",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462873,
+            "name": "Reggaeton",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462872,
+            "name": "Afrobeat",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462871,
+            "name": "Forro",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462870,
+            "name": "Flamenco",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462869,
+            "name": "Celtic",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462868,
+            "name": "Schlager",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462867,
+            "name": "Worldbeat",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462866,
+            "name": "Bollywood",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462865,
+            "name": "Cantopop",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462864,
+            "name": "Russelater",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462863,
+            "name": "Mandopop",
+            "type": "parent-genre"
+        },
+        {
+            "id": 462862,
+            "name": "Devotional & Spiritual",
+            "type": "parent-genre"
+        }
+    ]
+}
