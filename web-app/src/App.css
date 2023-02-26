@@ -35,10 +35,9 @@ body {
 
 .badge {
   padding: 0.2rem 0.5rem;
-  background-color: var(--base0B);
   color: var(--base00);
   border-radius: 10px;
-  margin-right: 2px;
+  margin-right: 0.5rem;
 }
 
 .badge:last-child {
@@ -81,16 +80,31 @@ h2 {
   color: var( --base075);
 }
 
-.searchForm input {
+.searchForm input,
+.searchForm select {
+  box-sizing: border-box;
   display: block;
   padding: 1rem;
-  margin: 0 auto;
   width: 100%;
-  max-width: 500px;
 }
 
 .searchForm button {
   margin-top: 1rem;
+}
+
+.searchForm form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.field label span {
+  color: var(--base075);
+  display: block;
+  text-align: left;
+}
+
+.field {
+  margin-bottom: 1.5rem;
 }
 
 .error {
@@ -127,4 +141,12 @@ h2 {
 
 .search {
   margin: 5rem 0;
+}
+
+.results {
+  margin-top: 2.5rem;
+}
+
+.results h3 {
+  font-size: 2rem;
 }

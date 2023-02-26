@@ -8,7 +8,7 @@ function App() {
       <header className="header">
         <div className="header__container">
         <p className="logo">
-          <span>MaxPop</span>
+          <span>Collaborata</span>
         </p>
 
         <h1>
@@ -20,12 +20,12 @@ function App() {
       </header>
 
       <main>
-        <p className="text-lead">MaxPop is a platform that lets artists find other artists to collaborate with for a given genre or market to enable both artists to grow their listenership.</p>
+        <p className="text-lead">Colaborata is a platform that lets artists find other artists to collaborate with for a given genre or market to enable both artists to grow their listenership.</p>
         <Search />
       </main>
 
       <footer>
-        <small>Hacked with ❤️ by <a href="https://rashmidsouza.com/">Rashmi DSouza</a>, <a href="https://de.linkedin.com/in/aaron-dutschmann">Aaron Dutschmann</a>, <a href="https://uk.linkedin.com/in/saskiaallan">Saskia Allan</a>, <a href="">Trust Meebelbari</a> and <a href="https://larrydalmeida.com/?lang=en#/">Larry D Almeida</a> at <a href="https://measureofmusic.com/">Measure of Music</a>, 2023</small>
+        <small>Hacked with ❤️ by <a href="https://rashmidsouza.com/?src=mom2023">Rashmi DSouza</a>, <a href="https://de.linkedin.com/in/aaron-dutschmann">Aaron Dutschmann</a>, <a href="https://uk.linkedin.com/in/saskiaallan">Saskia Allan</a>, <a href="https://instagram.com/trustroy">Trust Meebelbari</a> and <a href="https://larrydalmeida.com/?lang=en&src=mom2023/">Larry D Almeida</a> at <a href="https://measureofmusic.com/">Measure of Music</a>, 2023</small>
       </footer>
     </div>
   );
