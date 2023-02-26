@@ -1,6 +1,7 @@
 from datetime import datetime
 from flask import Flask, render_template, request, redirect, url_for, send_from_directory, jsonify
 import json
+from service.authService import authorize
 app = Flask(__name__)
 
 
@@ -25,7 +26,7 @@ def hello():
        print('Request for hello page received with no name or blank name -- redirecting')
        return redirect(url_for('index'))
 
-@app.route('/collaborators', methods=['GET'])
+@app.route('/collaborators', methods=['POST'])
 def collaborators():
     # access request data
     data = request.get_json()
@@ -34,6 +35,8 @@ def collaborators():
     target_country = data["target_country"]
     name = data["target_genre"]
     originalGenreId = data["my_genre"]
+
+    accessToken = authorize()
 
     # Return dummy data
     with open('db.json') as f:
