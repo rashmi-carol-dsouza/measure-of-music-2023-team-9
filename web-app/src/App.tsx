@@ -20,7 +20,7 @@ function App() {
       </header>
 
       <main>
-        <p className="text-lead">Colaborata is a platform that lets artists find other artists to collaborate with for a given genre or market to enable both artists to grow their listenership.</p>
+        <p className="text-lead">Collaborata helps artists expand their global audience by matching them with international artists that would be a creative fit for collaborations.</p>
         <Search />
       </main>
 
