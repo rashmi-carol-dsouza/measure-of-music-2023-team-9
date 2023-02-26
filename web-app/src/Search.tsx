@@ -5,8 +5,6 @@ import axios from "axios";
 
 import { genre } from './options';
 
-console.log(genre);
-
 type GenreProps = {
   values: string[];
 };
@@ -16,11 +14,17 @@ const Genres = ({ values }: GenreProps) => {
   return (
     <>
       {values.map((genreId, idx) => {
-        const g = genre.find((g: Option) => g.id === genreId);
-        const style = { background: g.color };
+        const currentGenre = genre.find((g: Option) => g.id === genreId);
+
+        if(!currentGenre) {
+          return null;
+        }
+
+        const style = { background: currentGenre.color};
+
         return (
           <span key={idx} className="badge" style={style}>
-            {g.name}
+            {currentGenre.name}
           </span>
         );
       })}
@@ -40,9 +44,15 @@ const Photo = ({ url }: PhotoProps) => {
   );
 };
 
-type CellProps = {
+type GenreCellProps = {
   cell: {
     value: string[];
+  };
+};
+
+type PhotoCellProps = {
+  cell: {
+    value: string;
   };
 };
 
@@ -85,12 +95,12 @@ const Search = () => {
           {
             Header: "Photo",
             accessor: "image",
-            Cell: ({ cell: { value } }: CellProps) => <Photo url={value} />,
+            Cell: ({ cell: { value } }: PhotoCellProps) => <Photo url={value} />,
           },
           {
             Header: "Genre(s)",
             accessor: "genres",
-            Cell: ({ cell: { value } }: CellProps) => <Genres values={value} />,
+            Cell: ({ cell: { value } }: GenreCellProps) => <Genres values={value} />,
           },
           {
             Header: "Compatibility Score",
