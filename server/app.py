@@ -26,13 +26,20 @@ def hello():
        return redirect(url_for('index'))
 
 @app.route('/collaborators', methods=['GET'])
-def get_file():
-    # Read the file in JSON format
+def collaborators():
+    # access request data
+    data = request.get_json()
+    requestedgenreId = data["target_genre"]
+    careerStage = data["career_stage"]
+    target_country = data["target_country"]
+    name = data["target_genre"]
+    originalGenreId = data["my_genre"]
+
+    # Return dummy data
     with open('db.json') as f:
         data = json.load(f)
 
-    # Return the file as a JSON response
-    return jsonify(data)
+    return data
 
 if __name__ == '__main__':
    app.run()
