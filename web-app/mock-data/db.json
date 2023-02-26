@@ -1,913 +1,804 @@
 {
-  "artists": [
+  "collaborators": [
     {
-      "id": "2477d38a-8df2-444d-b795-52fc169fdf3f",
+      "id": "b0c29d1e-3818-4423-a664-1f0264d5729b",
       "rank": 1,
-      "name": "Julissa Earengey",
-      "energy": "High",
-      "pastCollabs": 4,
-      "genres": ["British Folk Revival", "Protovapor"]
+      "name": "Betsy Armytage",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 48,
+      "genres": [462955, 462947, 462888, 462911]
     },
     {
-      "id": "2128b67f-fcee-4cc4-b397-5b0ede013ddd",
+      "id": "655ca520-5ad6-450c-9bfc-c22c5ff08fbc",
       "rank": 2,
-      "name": "Marlene Keepin",
-      "energy": "High",
-      "pastCollabs": 14,
-      "genres": ["Pop", "Apala", "Nerdcore", "Minimalism"]
+      "name": "Faydra Tyzack",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 20,
+      "genres": [462964, 462902, 462877]
     },
     {
-      "id": "bf7676a4-83b1-4da9-8f9d-7299907a6693",
+      "id": "8e060472-3ac2-453e-9b8d-14bda5be1c2a",
       "rank": 3,
-      "name": "Alys Keen",
-      "energy": "Medium",
-      "pastCollabs": 15,
-      "genres": [
-        "Acid Trance",
-        "Dutch House",
-        "Christmas: Jazz",
-        "Classic Blues"
-      ]
+      "name": "Natassia Leighfield",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 5,
+      "genres": [462890, 462975]
     },
     {
-      "id": "c5d8972c-54ac-4a72-b539-298684632fd6",
+      "id": "bbc99923-b8e7-4d8d-949a-e2949ae65b66",
       "rank": 4,
-      "name": "Fidelity Rosenstiel",
-      "energy": "High",
-      "pastCollabs": 13,
-      "genres": ["Maloya"]
+      "name": "Dareen Sanpere",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 66,
+      "genres": [478636]
     },
     {
-      "id": "362dde6b-1aca-48c8-ad7b-803a19d1d435",
+      "id": "7338040c-8339-4914-82b9-033dd50c677e",
       "rank": 5,
-      "name": "Matthieu Langmuir",
-      "energy": "High",
-      "pastCollabs": 9,
-      "genres": ["Low Bap"]
+      "name": "Jenelle Blaskett",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 6,
+      "genres": [462951, 462929, 462939, 462953]
     },
     {
-      "id": "2e62205c-5383-43eb-a8ee-23516b467ea4",
+      "id": "03df79e1-f165-4170-9e57-5a5f5cfb4905",
       "rank": 6,
-      "name": "Ingeborg Boken",
-      "energy": "High",
-      "pastCollabs": 11,
-      "genres": ["Texas County", "Rock", "Dark Blues", "Broken Beat"]
+      "name": "Farly Bendix",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 14,
+      "genres": [462886]
     },
     {
-      "id": "275648e5-7e48-4d8e-86f5-68e569e609c3",
+      "id": "7e50eea8-0cf6-4110-90e1-0db64bde1b78",
       "rank": 7,
-      "name": "Moira Ansley",
-      "energy": "High",
-      "pastCollabs": 8,
-      "genres": [
-        "Texas County",
-        "Jump Blues",
-        "Japanoise",
-        "Minimal Techno",
-        "Nerdcore"
-      ]
+      "name": "Marena Grunder",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 28,
+      "genres": [462884]
     },
     {
-      "id": "c5223232-a3a3-42a3-b844-753e5ce62e95",
+      "id": "a02b7ff6-3f59-4482-81a9-7f47be0ad4ab",
       "rank": 8,
-      "name": "Aura Shovlar",
-      "energy": "Medium",
-      "pastCollabs": 3,
-      "genres": [
-        "Madchester",
-        "Technopop",
-        "Palm-Wine",
-        "Electro-Industrial",
-        "Baroque"
-      ]
+      "name": "Tammara Cowl",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 17,
+      "genres": [462917, 478636, 462943]
     },
     {
-      "id": "dc9de4dd-4e02-4f16-9fe1-526a1d5f055f",
+      "id": "591601df-10da-4e1f-9373-171c50570fee",
       "rank": 9,
-      "name": "Annetta Jakab",
-      "energy": "Low",
-      "pastCollabs": 2,
-      "genres": [
-        "Praise & Worship",
-        "Nerdcore",
-        "IDM/Experimental",
-        "Minimal Techno",
-        "Mbalax"
-      ]
+      "name": "Hermy Dudman",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 24,
+      "genres": [462887]
     },
     {
-      "id": "ae1e948f-c8d4-4b83-8040-d07914d1de1f",
+      "id": "a1043ae7-0a3a-4cef-8127-9e9676333236",
       "rank": 10,
-      "name": "Leora Tonbye",
-      "energy": "Medium",
-      "pastCollabs": 4,
-      "genres": ["Christmas: Jazz", "Doomcore", "Japanoise"]
+      "name": "Robbie Ferry",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 1,
+      "genres": [462918, 462973, 462908, 462945]
     },
     {
-      "id": "879bb50a-ebee-4a00-85b9-35566207cdd8",
+      "id": "c07638b7-2e82-4854-ab35-10662b9a36a9",
       "rank": 11,
-      "name": "Kimberly O'Gormley",
-      "energy": "Low",
-      "pastCollabs": 4,
-      "genres": ["Jazz Rap", "Lingala", "Progressive Bluegrass"]
+      "name": "Edmon Mackilpatrick",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 16,
+      "genres": [462885, 462944, 462969, 462979]
     },
     {
-      "id": "f33c06b0-8f27-4b47-a187-3e8a69f310a9",
+      "id": "b9d756b0-ca23-4afe-9653-57aa2c857c51",
       "rank": 12,
-      "name": "Florian Daniel",
-      "energy": "High",
-      "pastCollabs": 12,
-      "genres": ["Illbient", "J-Ska", "T-Pop"]
+      "name": "Skyler Petrenko",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 45,
+      "genres": [462976, 462896, 478636, 462893, 462974]
     },
     {
-      "id": "2af83dc5-c95b-4caa-9311-079c946e6fda",
+      "id": "9b4a5843-2ecd-4950-a01b-28874f95258a",
       "rank": 13,
-      "name": "Sarine Beville",
-      "energy": "High",
-      "pastCollabs": 8,
-      "genres": [
-        "T-Pop",
-        "Texas County",
-        "Classic Blues",
-        "Vocal Pop",
-        "Nerdcore"
-      ]
+      "name": "Barbabas Kincla",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 53,
+      "genres": [462904, 462942, 462950]
     },
     {
-      "id": "03aab369-1f8d-426d-918a-0c380ab41b43",
+      "id": "b2fd2581-4213-451d-b174-6933f42998eb",
       "rank": 14,
-      "name": "Keefe Bithany",
-      "energy": "Low",
-      "pastCollabs": 14,
-      "genres": ["Acid Trance", "Classic Blues", "Zouglou", "Apala"]
+      "name": "Tammy Dunstan",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 38,
+      "genres": [462904, 462944, 462966]
     },
     {
-      "id": "be7ae615-6b69-4797-ba3b-8a47644471d1",
+      "id": "7c57b554-24c9-45bb-b06d-4324b37ae905",
       "rank": 15,
-      "name": "Mavra Rivaland",
-      "energy": "Low",
-      "pastCollabs": 8,
-      "genres": ["Traditional Country"]
+      "name": "Melosa Tebbet",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 3,
+      "genres": [462869, 462893, 462966, 462888, 462913]
     },
     {
-      "id": "91f9a708-7831-4b38-b59f-2dcb33901524",
+      "id": "b451a540-ce36-443d-850c-734729ba2fad",
       "rank": 16,
-      "name": "Ely Klassman",
-      "energy": "Medium",
-      "pastCollabs": 12,
-      "genres": [
-        "Classic Blues",
-        "Liquid Dub",
-        "Dutch House",
-        "J-Ska",
-        "Minimal Techno"
-      ]
+      "name": "Katrine Orro",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 75,
+      "genres": [462952, 462922]
     },
     {
-      "id": "0f526930-0bc4-4363-8cf7-f843500ba3f2",
+      "id": "da07856a-7117-4cac-9e52-7c92487fe273",
       "rank": 17,
-      "name": "Vivianna Hidderley",
-      "energy": "High",
-      "pastCollabs": 7,
-      "genres": ["Dark Blues", "Maloya"]
+      "name": "Breanne Houlston",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 52,
+      "genres": [462936]
     },
     {
-      "id": "8fdd9391-9ad3-486c-96ca-27c761b8511f",
+      "id": "6d20e2cd-d169-430a-b0b5-d51d7f497712",
       "rank": 18,
-      "name": "Michaella Leavold",
-      "energy": "High",
-      "pastCollabs": 12,
-      "genres": ["Tex-Mex", "Technopop", "Contemporary R&B", "Christmas: Jazz"]
+      "name": "Desmond Cardow",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 14,
+      "genres": [462945, 462939, 462883, 462892]
     },
     {
-      "id": "5e5de9fd-1ce3-41ca-b9b2-0fae0ffc173b",
+      "id": "acd35b4a-09c1-4d47-a5b1-99c0aa07cd17",
       "rank": 19,
-      "name": "Lena Eagling",
-      "energy": "Low",
-      "pastCollabs": 8,
-      "genres": ["Classic Blues"]
+      "name": "Halimeda Catlin",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 32,
+      "genres": [462876, 462988, 462973, 462957, 462939]
     },
     {
-      "id": "708376fd-c118-46b1-84e2-d13c05a0fcc4",
+      "id": "26a68f1f-6c5f-4100-bb5f-e9707b668b91",
       "rank": 20,
-      "name": "Lissy Medd",
-      "energy": "Medium",
-      "pastCollabs": 6,
-      "genres": [
-        "Dark Blues",
-        "Minimal Techno",
-        "Expressionist",
-        "Illbient",
-        "Maloya"
-      ]
+      "name": "Rozelle Thunnercliff",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 74,
+      "genres": [462931]
     },
     {
-      "id": "2c811c9b-4f9e-4a01-b461-8184a2c2f5b9",
+      "id": "96c7bdaf-0291-4943-9f9f-6c9187b219b1",
       "rank": 21,
-      "name": "Jermaine Langworthy",
-      "energy": "Low",
-      "pastCollabs": 6,
-      "genres": ["Contemporary R&B"]
+      "name": "Julienne Mayze",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 54,
+      "genres": [462889, 462952, 462888]
     },
     {
-      "id": "f8f84851-9637-4335-bbfa-e94a0e2484b8",
+      "id": "0569bd06-2b25-4239-8046-970044a12f3d",
       "rank": 22,
-      "name": "Alejandra Frude",
-      "energy": "High",
-      "pastCollabs": 6,
-      "genres": [
-        "Instrumental Country",
-        "T-Pop",
-        "Rock",
-        "Japanoise",
-        "Liquid Dub"
-      ]
+      "name": "Glynn Lackemann",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 2,
+      "genres": [462911, 462948, 462930]
     },
     {
-      "id": "43eaba3e-3f98-457d-b353-e7118fb70c9a",
+      "id": "e998f668-72d8-45fb-8172-bd840838b210",
       "rank": 23,
-      "name": "Chevalier Mault",
-      "energy": "Low",
-      "pastCollabs": 12,
-      "genres": [
-        "Christmas: Jazz",
-        "Vocal Pop",
-        "Expressionist",
-        "Nerdcore",
-        "IDM/Experimental"
-      ]
+      "name": "Catrina Meco",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 79,
+      "genres": [462971, 462894, 462987, 462974, 462924]
     },
     {
-      "id": "539c402d-9d08-4c48-b603-078e9d5c7b6e",
+      "id": "5d264b8e-5624-4dfd-a470-0bdaf60a2c00",
       "rank": 24,
-      "name": "Arte Turn",
-      "energy": "Low",
-      "pastCollabs": 15,
-      "genres": ["Expressionist"]
+      "name": "Gennie Berks",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 40,
+      "genres": [462878]
     },
     {
-      "id": "48824eb8-1561-49bc-96e3-876c48b4bb0f",
+      "id": "9da788eb-45e7-4565-b8f1-658a97de7515",
       "rank": 25,
-      "name": "Kirby Francesco",
-      "energy": "Medium",
-      "pastCollabs": 5,
-      "genres": ["J-Ska", "Classic Blues", "Progressive Bluegrass"]
+      "name": "Shem Fenney",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 38,
+      "genres": [462972, 462905, 462931]
     },
     {
-      "id": "312ae36b-80a7-471f-aa01-54f346a075d1",
+      "id": "9e1b150f-f5cf-4219-8a35-08902b0dee80",
       "rank": 26,
-      "name": "Eunice Hubbocks",
-      "energy": "Low",
-      "pastCollabs": 1,
-      "genres": ["Broken Beat", "Expressionist", "Lingala"]
+      "name": "Winn Foystone",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 3,
+      "genres": [462989, 462898, 462919, 462913]
     },
     {
-      "id": "9668d5f4-f0a2-4438-bd45-549ee6cd7e10",
+      "id": "5e36b8e0-2a0b-4bca-86c4-1006a646b756",
       "rank": 27,
-      "name": "Barnard Davidou",
-      "energy": "Medium",
-      "pastCollabs": 12,
-      "genres": ["British Folk Revival", "Rock"]
+      "name": "Lovell Ablett",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 22,
+      "genres": [462925, 462954, 462913]
     },
     {
-      "id": "24d83b3e-3fc0-4029-80fc-b78811d724d3",
+      "id": "38111530-c057-4019-964a-b4f02184f31e",
       "rank": 28,
-      "name": "Lucho Flode",
-      "energy": "Low",
-      "pastCollabs": 6,
-      "genres": ["Palm-Wine", "Contemporary R&B", "Low Bap", "IDM/Experimental"]
+      "name": "Cristina Ahren",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 0,
+      "genres": [462956, 462924, 462887]
     },
     {
-      "id": "3f26c6f4-79a1-46f6-afb4-a0c356bb5861",
+      "id": "f7c0f45f-e0e3-4c3e-ad16-81fafca3a487",
       "rank": 29,
-      "name": "Ricki Clell",
-      "energy": "Low",
-      "pastCollabs": 3,
-      "genres": ["Jump Blues"]
+      "name": "Terencio Higgen",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 14,
+      "genres": [462866, 462983, 462939]
     },
     {
-      "id": "49f17595-dfc6-44d3-bdaa-a4c63eef1d89",
+      "id": "dad8e5ba-b204-4532-90dc-65f2864695e4",
       "rank": 30,
-      "name": "Robb Hagley",
-      "energy": "Medium",
-      "pastCollabs": 0,
-      "genres": ["Christmas: Comedy"]
+      "name": "Bernice Readwin",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 76,
+      "genres": [462916, 462862, 462931]
     },
     {
-      "id": "0deacbb7-1aae-4784-8e9a-03905b4632ba",
+      "id": "41b1de25-faf1-499c-af28-cc97e5ba401b",
       "rank": 31,
-      "name": "Darbee Castaner",
-      "energy": "Medium",
-      "pastCollabs": 11,
-      "genres": ["Traditional Country", "IDM/Experimental", "Technopop"]
+      "name": "Mal Wiper",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 4,
+      "genres": [462876, 462888, 462976, 462942, 462918]
     },
     {
-      "id": "260f5c5f-7e05-430c-8c65-131f76999f96",
+      "id": "179f648c-07e6-45fb-8976-c7fe74070b72",
       "rank": 32,
-      "name": "Avram Maddrah",
-      "energy": "Low",
-      "pastCollabs": 15,
-      "genres": [
-        "Illbient",
-        "Electro-Industrial",
-        "Protovapor",
-        "Maloya",
-        "Grunk"
-      ]
+      "name": "Demeter Prescot",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 16,
+      "genres": [462883, 462971]
     },
     {
-      "id": "e40110aa-8050-41ba-9572-b2bfd9e86e8a",
+      "id": "ac21cf18-1d5d-4c0d-9c85-6a7070275941",
       "rank": 33,
-      "name": "Claretta Kubek",
-      "energy": "High",
-      "pastCollabs": 7,
-      "genres": [
-        "Electro-Industrial",
-        "Techstep",
-        "Contemporary R&B",
-        "Dutch House"
-      ]
+      "name": "Brandie Jones",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 20,
+      "genres": [462892, 462982, 462881]
     },
     {
-      "id": "d2dc8356-6ee2-4beb-b45c-dbd2815985ae",
+      "id": "9c3ef1c7-f4bc-4070-8152-6a1e2abc9a25",
       "rank": 34,
-      "name": "Pepi Naisbet",
-      "energy": "High",
-      "pastCollabs": 0,
-      "genres": ["Acid Trance"]
+      "name": "Marylou Cornhill",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 30,
+      "genres": [462908, 462881]
     },
     {
-      "id": "def1a66d-f43b-4d6a-a866-9b23b10bae4b",
+      "id": "62261cbf-226a-4622-9d45-50b85d50e857",
       "rank": 35,
-      "name": "Selby Hurley",
-      "energy": "Medium",
-      "pastCollabs": 7,
-      "genres": ["Dark Blues", "Expressionist", "Nerdcore"]
+      "name": "Rhoda Crim",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 21,
+      "genres": [462958, 462971, 462963, 462886]
     },
     {
-      "id": "d400139c-71b9-4ffe-87d9-55fd6c3d15f3",
+      "id": "959b5eec-7030-45b8-9912-81d337fff034",
       "rank": 36,
-      "name": "Lynsey Kachel",
-      "energy": "Low",
-      "pastCollabs": 15,
-      "genres": ["Mbalax", "Palm-Wine"]
+      "name": "Ellis Butterfint",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 64,
+      "genres": [462899, 462943]
     },
     {
-      "id": "8ab8aa32-ef50-40c3-83b1-5f4af65a710d",
+      "id": "5008c187-f95d-453f-bde5-593ca40c6f83",
       "rank": 37,
-      "name": "Brock Gillaspy",
-      "energy": "Medium",
-      "pastCollabs": 7,
-      "genres": ["Vocal Pop", "Baroque", "Christmas: Jazz", "Choral"]
+      "name": "William McGarva",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 56,
+      "genres": [462952, 462896, 462907, 462891]
     },
     {
-      "id": "1cd92278-5f2d-4942-ae33-535b724c4a16",
+      "id": "d9ab71d6-7b0f-43ca-a2fb-836d22ee732d",
       "rank": 38,
-      "name": "Lanette Janczewski",
-      "energy": "Low",
-      "pastCollabs": 4,
-      "genres": ["Lingala", "Praise & Worship", "Japanoise", "Protovapor"]
+      "name": "Ingaberg Rummings",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 13,
+      "genres": [462982]
     },
     {
-      "id": "26d2f1f8-0274-4049-aa1a-d7c1eed14cd7",
+      "id": "461cdba0-22e7-4341-9018-c597b45e758f",
       "rank": 39,
-      "name": "Thibaut Dwight",
-      "energy": "Medium",
-      "pastCollabs": 8,
-      "genres": ["Protovapor"]
+      "name": "Correna Spavins",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 53,
+      "genres": [462919, 462965, 462894]
     },
     {
-      "id": "07177a9b-da52-43f6-9e7e-4be12717e0ee",
+      "id": "c2abc0bb-e390-4def-8f4d-93b3e85011fb",
       "rank": 40,
-      "name": "Yuma Bushell",
-      "energy": "Medium",
-      "pastCollabs": 1,
-      "genres": ["T-Pop"]
+      "name": "Margi Catto",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 7,
+      "genres": [462924, 462937, 462877]
     },
     {
-      "id": "4ac7dec3-a1e8-4207-b503-754d2e9289fc",
+      "id": "5ebf4be6-437e-4102-9442-978cf3130721",
       "rank": 41,
-      "name": "Dynah Bache",
-      "energy": "High",
-      "pastCollabs": 8,
-      "genres": ["Jit", "Mbalax", "Techstep", "Hard Dance", "Christmas: Jazz"]
+      "name": "Keir Radki",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 64,
+      "genres": [462970, 462964]
     },
     {
-      "id": "f3a3b960-afd1-4a2a-82c7-118809960cc1",
+      "id": "958577d5-420c-4188-a1f1-94b8d342265c",
       "rank": 42,
-      "name": "Lelia Begbie",
-      "energy": "Medium",
-      "pastCollabs": 8,
-      "genres": ["Expressionist"]
+      "name": "Kahaleel Cordon",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 67,
+      "genres": [462968]
     },
     {
-      "id": "aa292e28-425b-4e1c-87ef-fa130bf3da06",
+      "id": "1becb675-88fb-4c98-bcaf-3089a6c0702a",
       "rank": 43,
-      "name": "Maisie Sertin",
-      "energy": "High",
-      "pastCollabs": 8,
-      "genres": ["Tex-Mex", "Vocal Pop"]
+      "name": "Lianne Robertet",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 6,
+      "genres": [462960, 462989, 462971]
     },
     {
-      "id": "ce34ee1a-d185-46b9-af3f-849e965452c5",
+      "id": "fc4f9eac-71f3-43aa-99fb-68720bedd17c",
       "rank": 44,
-      "name": "Tamas Kidney",
-      "energy": "Medium",
-      "pastCollabs": 3,
-      "genres": ["Jump Blues"]
+      "name": "Tess Laurenson",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 13,
+      "genres": [462881]
     },
     {
-      "id": "4f575a1d-95c2-45d6-9375-de8ec9f42a56",
+      "id": "d7c055f8-4aef-418b-b072-f910fe3dfa5f",
       "rank": 45,
-      "name": "Tanny Laffan",
-      "energy": "Low",
-      "pastCollabs": 10,
-      "genres": [
-        "Electro-Industrial",
-        "Instrumental Country",
-        "Hard Dance",
-        "J-Ska",
-        "Lingala"
-      ]
+      "name": "Wandis Gerauld",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 13,
+      "genres": [462879, 462866]
     },
     {
-      "id": "f310725c-6a3b-4f21-8edd-c7e8ace41dfa",
+      "id": "207321aa-21b7-4cf7-8333-6fb0fec60278",
       "rank": 46,
-      "name": "Chryste Jessope",
-      "energy": "Medium",
-      "pastCollabs": 8,
-      "genres": ["T-Pop"]
+      "name": "Randy Fairall",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 7,
+      "genres": [462903, 462872, 462937]
     },
     {
-      "id": "b860fd22-f11b-465e-b392-cd2b77e5cb9e",
+      "id": "d52ab8c9-6b15-42d4-ba2a-eff899a2c218",
       "rank": 47,
-      "name": "Janifer Ferreo",
-      "energy": "Low",
-      "pastCollabs": 8,
-      "genres": ["Texas County", "Techstep", "Dark Blues"]
+      "name": "Meredeth Ceaser",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 6,
+      "genres": [462919, 462894, 462882, 462910]
     },
     {
-      "id": "ff1fa7a1-e6b8-4bc1-9cd3-d6dcf3632b79",
+      "id": "1aca1bd0-d354-4a52-a00b-b8b6bfbd70c7",
       "rank": 48,
-      "name": "Zondra Churn",
-      "energy": "Low",
-      "pastCollabs": 3,
-      "genres": ["T-Pop"]
+      "name": "Harv Creer",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 18,
+      "genres": [462973]
     },
     {
-      "id": "31617a8a-7345-414f-9bda-57471d1d9114",
+      "id": "412a6aec-e9f3-4802-ba0c-5a8258956a99",
       "rank": 49,
-      "name": "Jorey Strangwood",
-      "energy": "Medium",
-      "pastCollabs": 2,
-      "genres": ["Christmas: Comedy", "British Folk Revival"]
+      "name": "Hedda Fritche",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 5,
+      "genres": [462909, 462954, 462907, 462950, 462984]
     },
     {
-      "id": "b6b6a5ed-6557-40bd-b0bf-4024ea6ea1c1",
+      "id": "8fef16db-7454-439d-a7db-824c523ef07d",
       "rank": 50,
-      "name": "Rowland Scotchmer",
-      "energy": "High",
-      "pastCollabs": 13,
-      "genres": ["British Folk Revival", "Hard Dance", "Lingala", "Dutch House"]
+      "name": "Rosamund Kilshaw",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 65,
+      "genres": [462873, 462880, 462983]
     },
     {
-      "id": "07f2a4c8-1d03-46c9-ae32-e802e7db6a16",
+      "id": "6c9b4e05-ada2-4f4b-999f-7a4b9d478b93",
       "rank": 51,
-      "name": "Auberon Arnaldi",
-      "energy": "Low",
-      "pastCollabs": 10,
-      "genres": ["Dark Psytrance", "Broken Beat", "Lingala", "Illbient"]
+      "name": "Shelden Vanne",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 63,
+      "genres": [462982, 462975]
     },
     {
-      "id": "ed0b7e38-1bbe-4402-8746-56b1ea9f09a6",
+      "id": "1d6e0669-f213-4dad-8306-4670f6e9c147",
       "rank": 52,
-      "name": "Ilsa Parsall",
-      "energy": "Medium",
-      "pastCollabs": 1,
-      "genres": ["Vocal Pop", "Palm-Wine"]
+      "name": "Yancey Rearden",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 52,
+      "genres": [462972, 462922]
     },
     {
-      "id": "298c5fb2-293a-4cd3-972e-2e547179ba1a",
+      "id": "7996a0be-1457-4d80-8aa5-aff76699f629",
       "rank": 53,
-      "name": "Hilarius Thorsen",
-      "energy": "Medium",
-      "pastCollabs": 4,
-      "genres": ["Doomcore", "Zouglou", "Palm-Wine", "Broken Beat", "T-Pop"]
+      "name": "Neville Jillions",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 48,
+      "genres": [462897, 462980, 462971, 462919, 462887]
     },
     {
-      "id": "1da43df4-1a7b-40ea-b607-bf30c93d228d",
+      "id": "ed45dfe4-9143-4f36-9cab-8f638bb86419",
       "rank": 54,
-      "name": "Kippie Downe",
-      "energy": "Medium",
-      "pastCollabs": 14,
-      "genres": ["Minimalism", "Ragga", "Electro-Industrial"]
+      "name": "Ludovika Couttes",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 68,
+      "genres": [462977, 462944, 462972]
     },
     {
-      "id": "57461982-2a44-497b-83b9-9e5d745cadf5",
+      "id": "5983f31b-7354-4832-ad72-80d1d1974adf",
       "rank": 55,
-      "name": "Jessa Lucia",
-      "energy": "High",
-      "pastCollabs": 4,
-      "genres": ["Broken Beat"]
+      "name": "Bartholomeus Paulus",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 45,
+      "genres": [462912]
     },
     {
-      "id": "6ba9668d-3cbd-4c66-b35d-51ac853e644a",
+      "id": "c2287b2f-c846-45d4-b766-288613550ef5",
       "rank": 56,
-      "name": "Ethel Pardey",
-      "energy": "Medium",
-      "pastCollabs": 3,
-      "genres": ["Electro-Industrial"]
+      "name": "Brear Hugo",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 4,
+      "genres": [462870]
     },
     {
-      "id": "99c369e7-4e81-412a-9aa3-412898884a17",
+      "id": "4f1bee0c-04f2-41d3-9de6-bc9d8ac3b639",
       "rank": 57,
-      "name": "Ortensia Worthing",
-      "energy": "Low",
-      "pastCollabs": 7,
-      "genres": ["Mbalax", "IDM/Experimental"]
+      "name": "Shepard Antonoczyk",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 35,
+      "genres": [462914]
     },
     {
-      "id": "aaac4d2a-4914-4745-b173-c6f65c4ca45c",
+      "id": "f7011dba-df30-4cf0-baf2-bc212b9c4e4a",
       "rank": 58,
-      "name": "Pierce Batchelder",
-      "energy": "Low",
-      "pastCollabs": 8,
-      "genres": ["T-Pop"]
+      "name": "Normie O'Sheeryne",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 56,
+      "genres": [462890, 462954, 462949, 462903, 462920]
     },
     {
-      "id": "8a36f253-9c6c-4e31-a021-9eb28712accc",
+      "id": "5b2bedde-b553-4322-9281-5d3d70397b56",
       "rank": 59,
-      "name": "Idaline Obeney",
-      "energy": "Medium",
-      "pastCollabs": 2,
-      "genres": ["Expressionist", "Japanoise", "Grunk", "British Folk Revival"]
+      "name": "Taylor Rickson",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 22,
+      "genres": [462905]
     },
     {
-      "id": "3cfcb599-d8b1-4287-9e3f-b1245d911a99",
+      "id": "b2b04c92-5667-4a47-9955-5f68e77d65ff",
       "rank": 60,
-      "name": "Athena Nussey",
-      "energy": "High",
-      "pastCollabs": 10,
-      "genres": ["Expressionist", "Christmas: Comedy", "Traditional Country"]
+      "name": "Gay Gamblin",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 76,
+      "genres": [462937, 462954, 462989, 462926]
     },
     {
-      "id": "9b25776c-e06a-4336-84aa-b5c14d2590ca",
+      "id": "b1d765a0-9281-477b-9c1c-05a5efaf50fb",
       "rank": 61,
-      "name": "Bella Arney",
-      "energy": "Low",
-      "pastCollabs": 15,
-      "genres": [
-        "Madchester",
-        "Protovapor",
-        "Minimal Techno",
-        "Expressionist",
-        "Dark Psytrance"
-      ]
+      "name": "Uta Stockwell",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 59,
+      "genres": [462894, 462987, 462928]
     },
     {
-      "id": "b7003a86-7b45-4df8-8ecc-666feaab240a",
+      "id": "d01f3e55-00a8-425b-b178-5eef6213ae2f",
       "rank": 62,
-      "name": "Kahlil Draxford",
-      "energy": "Low",
-      "pastCollabs": 11,
-      "genres": ["Technopop", "Texas County", "Japanoise", "Protovapor"]
+      "name": "Katlin Ingray",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 33,
+      "genres": [462970, 462919]
     },
     {
-      "id": "34ef3df2-ac75-4e34-9142-c9eab7f29a1d",
+      "id": "fafb5aeb-0b03-441e-a9ef-c32ec74d8b31",
       "rank": 63,
-      "name": "Pearline Cobbe",
-      "energy": "High",
-      "pastCollabs": 2,
-      "genres": ["Low Bap", "Jit", "Traditional Country", "Jump Blues"]
+      "name": "Hilliary Sprowson",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 45,
+      "genres": [462918, 462945, 462964, 462942]
     },
     {
-      "id": "0894565c-3cae-4b9a-8620-42af92684e58",
+      "id": "f0781fb7-d9d2-4e65-bd8e-5eae1d40ebf8",
       "rank": 64,
-      "name": "Lora O'Lennane",
-      "energy": "Low",
-      "pastCollabs": 8,
-      "genres": ["Ragga", "Classic Blues", "Contemporary R&B", "Madchester"]
+      "name": "Rufe Cawsby",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 30,
+      "genres": [462881]
     },
     {
-      "id": "6c43a7c3-8456-46cc-b949-fb036ff8fa6b",
+      "id": "1515f18b-77f8-471d-86a5-c69b13f3d70d",
       "rank": 65,
-      "name": "Marcile Simonato",
-      "energy": "Medium",
-      "pastCollabs": 5,
-      "genres": ["Praise & Worship", "Grunk", "Protovapor"]
+      "name": "Shela Cust",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 25,
+      "genres": [462963]
     },
     {
-      "id": "d2183ec2-0124-4a0e-99f6-2055bfa3f87f",
+      "id": "4b11a12c-26b8-4119-a9fc-90949c7d9e10",
       "rank": 66,
-      "name": "Thadeus Browning",
-      "energy": "Low",
-      "pastCollabs": 5,
-      "genres": ["Low Bap"]
+      "name": "Estrellita Strond",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 71,
+      "genres": [462917, 462965, 462984, 462970, 462947]
     },
     {
-      "id": "b4b6aeac-46f9-453b-961c-fa44bd07f336",
+      "id": "ec098e39-ae05-4edc-8e22-c18f3181a607",
       "rank": 67,
-      "name": "Sofia Cutill",
-      "energy": "High",
-      "pastCollabs": 10,
-      "genres": ["Choral"]
+      "name": "Elizabet Blandford",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 32,
+      "genres": [462864, 462961, 478636]
     },
     {
-      "id": "a71f4d1b-8001-4192-8ee2-ed090bf67e26",
+      "id": "cab07e02-3ed1-40b2-a3bd-b3d9ed45cff9",
       "rank": 68,
-      "name": "Mitchell Spurdens",
-      "energy": "High",
-      "pastCollabs": 15,
-      "genres": ["Low Bap", "Classic Blues", "Texas County"]
+      "name": "Ermentrude Haucke",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 43,
+      "genres": [462966, 462963, 462970]
     },
     {
-      "id": "a15c794e-8930-43ee-b6d1-8bc686ad01fa",
+      "id": "5a8f26c2-3d6e-401d-8a66-656873c8c2ad",
       "rank": 69,
-      "name": "Alexandra Benech",
-      "energy": "Medium",
-      "pastCollabs": 5,
-      "genres": ["Minimalism"]
+      "name": "Baxy Carlo",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 42,
+      "genres": [462970, 462893, 462903]
     },
     {
-      "id": "8506a586-d4eb-4a37-b63d-a05402dc3a32",
+      "id": "39cca390-84f9-4a99-bb2c-43b978a47196",
       "rank": 70,
-      "name": "Margie Reely",
-      "energy": "Low",
-      "pastCollabs": 2,
-      "genres": ["Zouglou"]
+      "name": "Dagmar Feedome",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 70,
+      "genres": [462910]
     },
     {
-      "id": "273b44b3-bbed-441a-84c7-9713e67fa3f1",
+      "id": "0bbd7bd4-7d32-4e53-a1ee-265f1e31d87c",
       "rank": 71,
-      "name": "Tanney Capron",
-      "energy": "High",
-      "pastCollabs": 5,
-      "genres": ["Dark Blues", "Progressive Bluegrass", "Hard Dance"]
+      "name": "Agretha Chant",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 72,
+      "genres": [462966]
     },
     {
-      "id": "cb83d65d-0862-42fe-8812-120fdde77705",
+      "id": "e6914d25-c45c-4d7c-9a3d-d61d729b5fb4",
       "rank": 72,
-      "name": "Julie Pimlock",
-      "energy": "Low",
-      "pastCollabs": 12,
-      "genres": ["Tex-Mex", "T-Pop", "British Folk Revival", "Low Bap"]
+      "name": "Myles Benes",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 60,
+      "genres": [462943, 462947, 462918, 462962]
     },
     {
-      "id": "29aea689-b807-4acf-a1e7-5c2d8bef3a9e",
+      "id": "c24a6cee-7472-457a-8d7f-a5a04a119ca5",
       "rank": 73,
-      "name": "Sela Ohms",
-      "energy": "High",
-      "pastCollabs": 5,
-      "genres": ["Texas County", "Grunk"]
+      "name": "Franz Woodhall",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 70,
+      "genres": [462908, 462894, 462971, 462988, 462985]
     },
     {
-      "id": "9d52345e-77e1-416d-9275-93e89bc72eba",
+      "id": "e1dcc31e-a788-4f4f-b176-50c3f9a60ef5",
       "rank": 74,
-      "name": "Allister Sendall",
-      "energy": "Low",
-      "pastCollabs": 8,
-      "genres": ["Technopop", "Praise & Worship"]
+      "name": "Dora Canwell",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 36,
+      "genres": [462938, 462895, 462919]
     },
     {
-      "id": "a4f53077-cda7-4e7a-b976-f3d6d1387199",
+      "id": "76d68d04-e74d-42f2-bc49-2bcc096860b4",
       "rank": 75,
-      "name": "Alane Haxell",
-      "energy": "High",
-      "pastCollabs": 5,
-      "genres": ["Doomcore", "Texas County", "Jazz Rap"]
+      "name": "Cathrine Winyard",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 6,
+      "genres": [462982, 462989, 462938]
     },
     {
-      "id": "d684c131-4f28-4769-9a50-c51a13f10456",
+      "id": "3c231578-c194-4c0a-839b-1c5dff9f1f1f",
       "rank": 76,
-      "name": "Byram Dell Casa",
-      "energy": "High",
-      "pastCollabs": 5,
-      "genres": ["Dark Blues", "Rock"]
+      "name": "Leia Goodrum",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 73,
+      "genres": [462982, 462877]
     },
     {
-      "id": "6f7b9250-cd0f-4245-95a0-7d8e83f15221",
+      "id": "b86d3e5c-8be3-4ab8-bb33-df14b739ba14",
       "rank": 77,
-      "name": "Hattie Witchell",
-      "energy": "Low",
-      "pastCollabs": 11,
-      "genres": ["Madchester", "Praise & Worship", "Maloya", "Dutch House"]
+      "name": "Mathe Guiduzzi",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 48,
+      "genres": [462871]
     },
     {
-      "id": "f8309d30-26bc-4759-8683-85f92b1168cd",
+      "id": "9d013b41-a37b-4a0a-9a59-6b3b35054f3d",
       "rank": 78,
-      "name": "Hendrika Curle",
-      "energy": "High",
-      "pastCollabs": 11,
-      "genres": [
-        "Dark Psytrance",
-        "Minimalism",
-        "Progressive Bluegrass",
-        "Jit",
-        "Japanoise"
-      ]
+      "name": "Neville Maruszewski",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 61,
+      "genres": [462885, 462960, 462978, 462901, 462964]
     },
     {
-      "id": "5247ad5e-a944-46b7-9f18-10e82e59867a",
+      "id": "250ff3be-01ff-46dd-98b0-e402486fb614",
       "rank": 79,
-      "name": "Cedric Ioannidis",
-      "energy": "Low",
-      "pastCollabs": 4,
-      "genres": [
-        "Hard Dance",
-        "Classic Blues",
-        "British Folk Revival",
-        "Zouglou"
-      ]
+      "name": "Lyndsie Mealiffe",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 62,
+      "genres": [462969, 462935, 462876, 462894]
     },
     {
-      "id": "447ca87a-ac41-4e21-b98d-73cb23a3ee75",
+      "id": "7068259f-cecb-46d8-abcb-abc76fe63369",
       "rank": 80,
-      "name": "Ginnie Digweed",
-      "energy": "Low",
-      "pastCollabs": 4,
-      "genres": ["Minimal Techno", "Dark Psytrance", "Broken Beat"]
+      "name": "Tann Schelle",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 46,
+      "genres": [462954, 462989]
     },
     {
-      "id": "9cdde0b2-e181-4d24-897f-4099b4cceff7",
+      "id": "d9b41f0b-4682-4257-960c-49bbfb1ed77a",
       "rank": 81,
-      "name": "Anatollo Janoch",
-      "energy": "Low",
-      "pastCollabs": 4,
-      "genres": ["Christmas: Jazz", "Liquid Dub"]
+      "name": "Washington Cluley",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 5,
+      "genres": [462926, 462981]
     },
     {
-      "id": "14ba9a77-85ad-4bfa-a6db-eda01f23aa58",
+      "id": "d7b42f50-3cf9-4d25-b644-19977c499c28",
       "rank": 82,
-      "name": "Hillard Catlette",
-      "energy": "Medium",
-      "pastCollabs": 7,
-      "genres": ["Broken Beat", "Christmas: Jazz", "Japanoise"]
+      "name": "Riobard Hun",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 45,
+      "genres": [462880, 462989, 462926]
     },
     {
-      "id": "6c8fd7e3-8acb-4db1-8ebf-08cd410d4e4d",
+      "id": "fea4e01d-5ff8-4aa8-be23-26c2dc476cca",
       "rank": 83,
-      "name": "Emmy Scruby",
-      "energy": "Low",
-      "pastCollabs": 7,
-      "genres": ["Baroque", "T-Pop", "J-Ska"]
+      "name": "Tiffy Mourbey",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 55,
+      "genres": [462973]
     },
     {
-      "id": "04fa1920-dd49-4532-bb52-a7c9b3066068",
+      "id": "da2474fd-cfb4-406d-acae-fc3e14a65947",
       "rank": 84,
-      "name": "Charlotta Waything",
-      "energy": "Low",
-      "pastCollabs": 6,
-      "genres": ["Nerdcore", "T-Pop"]
+      "name": "Free Eaden",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 49,
+      "genres": [462953, 462881, 462871]
     },
     {
-      "id": "096e44cc-bcb3-4183-b82c-d522b6b4125a",
+      "id": "e15434d4-0f10-4d5d-8cd4-ef25c7d9b6f6",
       "rank": 85,
-      "name": "Cassius Toal",
-      "energy": "Low",
-      "pastCollabs": 1,
-      "genres": ["British Folk Revival", "Broken Beat"]
+      "name": "Dannie Penvarne",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 11,
+      "genres": [462875, 462894, 462865]
     },
     {
-      "id": "d7da14bd-cfec-4c85-9255-c00dd9818ee9",
+      "id": "97190f24-12d1-4bc1-8f9e-9ae8b15b8e12",
       "rank": 86,
-      "name": "Fidela Fallow",
-      "energy": "High",
-      "pastCollabs": 12,
-      "genres": ["Apala", "Japanoise"]
+      "name": "Doug De Haven",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 5,
+      "genres": [462949, 462985, 462870]
     },
     {
-      "id": "2db0d71c-aeb0-41b3-a3c6-ffa0dccdb889",
+      "id": "667ab97b-51ed-4f10-bdf9-7f4c8d676895",
       "rank": 87,
-      "name": "Luce Buntain",
-      "energy": "High",
-      "pastCollabs": 0,
-      "genres": ["Contemporary R&B", "Mbalax"]
+      "name": "Aileen Roscrigg",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 34,
+      "genres": [462892, 462976]
     },
     {
-      "id": "dbc56c92-ae80-4733-b0d9-31154e24f92a",
+      "id": "cfca2337-f349-4a19-9a6a-e7c542164a67",
       "rank": 88,
-      "name": "Florence Peddersen",
-      "energy": "Low",
-      "pastCollabs": 2,
-      "genres": ["T-Pop", "Acid Trance"]
+      "name": "Isak Larmour",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 73,
+      "genres": [462911, 462967, 462988]
     },
     {
-      "id": "6073653d-a1a2-48ac-aa9c-fa8b0a2d9b73",
+      "id": "ec62f1ed-02b1-4256-880a-4876603ead54",
       "rank": 89,
-      "name": "Fanya McTurk",
-      "energy": "High",
-      "pastCollabs": 1,
-      "genres": [
-        "Christmas: Jazz",
-        "T-Pop",
-        "IDM/Experimental",
-        "Christmas: Comedy"
-      ]
+      "name": "Edie Manuely",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 52,
+      "genres": [462939, 462988, 462963]
     },
     {
-      "id": "9ce7a0a8-e32c-403e-a9c0-18fa07d2b183",
+      "id": "1bc253bc-8f84-4adf-9a3f-c39c533e42aa",
       "rank": 90,
-      "name": "Johny Proger",
-      "energy": "High",
-      "pastCollabs": 5,
-      "genres": [
-        "Contemporary R&B",
-        "Pop",
-        "Progressive Bluegrass",
-        "Christmas: Comedy"
-      ]
+      "name": "Ruddy Poll",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 73,
+      "genres": [462940, 462956, 462930]
     },
     {
-      "id": "ba406214-12d2-43fb-93fe-18d57a9f0119",
+      "id": "3ca2bc78-cae7-4f73-b73d-82626af8dd83",
       "rank": 91,
-      "name": "Jessie Castellet",
-      "energy": "Low",
-      "pastCollabs": 5,
-      "genres": ["Palm-Wine", "Illbient", "Traditional Country"]
+      "name": "Meggie Collinge",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 35,
+      "genres": [462978, 462961, 462864]
     },
     {
-      "id": "486f6998-a265-4ddb-a2d4-04fc29c06bc8",
+      "id": "29450099-0676-498f-81fc-234b47543b1e",
       "rank": 92,
-      "name": "Cristabel Bullant",
-      "energy": "Low",
-      "pastCollabs": 7,
-      "genres": [
-        "British Folk Revival",
-        "Nerdcore",
-        "Progressive Bluegrass",
-        "Instrumental Country",
-        "Christmas: Comedy"
-      ]
+      "name": "Marcia Stockell",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 45,
+      "genres": [462909]
     },
     {
-      "id": "674f7c6c-06c0-4451-bca4-b056c14d0ae5",
+      "id": "2ee0d99d-f2d4-4dba-bb53-185da0df8cff",
       "rank": 93,
-      "name": "Benson Compson",
-      "energy": "Medium",
-      "pastCollabs": 14,
-      "genres": ["Liquid Dub"]
+      "name": "Etienne Keyzor",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 36,
+      "genres": [462896]
     },
     {
-      "id": "08860ae8-8413-4f1e-bcb3-068e4d6a60b4",
+      "id": "f14703c5-6359-41cf-9375-a542980a595f",
       "rank": 94,
-      "name": "Ailis Minogue",
-      "energy": "Medium",
-      "pastCollabs": 6,
-      "genres": ["T-Pop", "Broken Beat", "Expressionist", "Electro-Industrial"]
+      "name": "Dorette Cabrera",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 42,
+      "genres": [462915, 462870, 462917, 462908, 462888]
     },
     {
-      "id": "0d831d3e-4290-4312-b209-6c92f7d03ecb",
+      "id": "a5cca6be-d5f7-4a7a-8b67-3aa8f541f18f",
       "rank": 95,
-      "name": "Vilma Scrowston",
-      "energy": "High",
-      "pastCollabs": 12,
-      "genres": ["Japanoise", "Apala", "Classic Blues", "J-Ska"]
+      "name": "Dud Ronan",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 47,
+      "genres": [462917, 462943, 462881]
     },
     {
-      "id": "dea46b00-89c2-4079-9864-c6820a8c4281",
+      "id": "f04ec364-2026-428e-99d1-7626ea186ae8",
       "rank": 96,
-      "name": "Pierson Aleksankin",
-      "energy": "High",
-      "pastCollabs": 15,
-      "genres": ["Jazz Rap"]
+      "name": "Jasun Ccomini",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 49,
+      "genres": [462879, 462987, 462975, 462941, 462864]
     },
     {
-      "id": "12be5845-73f3-4699-b978-2c191fe8f1fa",
+      "id": "5b4f895d-6c28-49f3-8159-6cbc48c84909",
       "rank": 97,
-      "name": "Gwyneth Ragbourn",
-      "energy": "High",
-      "pastCollabs": 9,
-      "genres": ["Broken Beat", "Techstep", "Lingala"]
+      "name": "Chantal Halls",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 66,
+      "genres": [462934, 462883, 462918]
     },
     {
-      "id": "5fce2a8c-763b-4d02-8cb8-2fb0c02261d4",
+      "id": "19e70dfc-1f00-450f-8609-aa276d999a46",
       "rank": 98,
-      "name": "Hubie Boreham",
-      "energy": "Medium",
-      "pastCollabs": 8,
-      "genres": ["Japanoise"]
+      "name": "Todd Ricard",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 71,
+      "genres": [462898, 462917, 462896]
     },
     {
-      "id": "cbdef8d1-0511-48b2-8263-da0836465886",
+      "id": "9248f14f-7c49-47dd-9710-3baa1f51c6e9",
       "rank": 99,
-      "name": "Ezra Shire",
-      "energy": "Medium",
-      "pastCollabs": 1,
-      "genres": ["T-Pop", "Low Bap", "Broken Beat", "Electro-Industrial"]
+      "name": "Charlie Amberg",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 44,
+      "genres": [462985, 462964]
     },
     {
-      "id": "078d77a2-52af-45c5-ada4-8a0d192e6aae",
+      "id": "efb89b81-1145-44d1-a7ef-7abeeb314530",
       "rank": 100,
-      "name": "Dore Dearth",
-      "energy": "High",
-      "pastCollabs": 6,
-      "genres": [
-        "Contemporary R&B",
-        "Acid Trance",
-        "Protovapor",
-        "Zouglou",
-        "Lingala"
-      ]
+      "name": "Genevra Ferrulli",
+      "image": "http://placekitten.com/g/150/150",
+      "compatibilityScore": 36,
+      "genres": [462956, 462903, 462879]
     }
   ]
 }
