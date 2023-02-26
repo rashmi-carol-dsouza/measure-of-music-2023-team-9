@@ -19,11 +19,13 @@
   --base0D: #3992ff;
   --base0E: #d83bd2;
   --base0F: #c8c8c8;
+  --baseXX: #090014;
 }
 
 body {
-  background-color: var(--base00);
+  background-color: var(--baseXX);
   color: var(--base07);
+  background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
 }
 
 #root {
