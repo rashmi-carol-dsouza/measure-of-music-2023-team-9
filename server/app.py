@@ -2,6 +2,7 @@ from datetime import datetime
 from flask import Flask, render_template, request, redirect, url_for, send_from_directory, jsonify
 import json
 from service.authService import authorize
+from service.collaboratorsService import getCollaborators
 app = Flask(__name__)
 
 
@@ -30,19 +31,9 @@ def hello():
 def collaborators():
     # access request data
     data = request.get_json()
-    requestedgenreId = data["target_genre"]
-    careerStage = data["career_stage"]
-    target_country = data["target_country"]
-    name = data["target_genre"]
-    originalGenreId = data["my_genre"]
-
     accessToken = authorize()
 
-    # Return dummy data
-    with open('db.json') as f:
-        data = json.load(f)
-
-    return data
+    return getCollaborators(data, accessToken)
 
 if __name__ == '__main__':
    app.run()
