@@ -36,8 +36,9 @@ def collaborators():
     # access request data
     data = request.get_json()
     accessToken = authorize()
+    print(data)
 
     return getCollaborators(data, accessToken)
 
 if __name__ == '__main__':
-   app.run()
+   app.run(debug=True)
