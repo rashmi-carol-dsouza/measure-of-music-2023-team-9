@@ -63,7 +63,7 @@ const Search = () => {
   const onSubmit = async (values: any, cb: Function) => {
     console.log(values);
     try {
-      const result = await axios.post("https://63fa2008473885d837d8ddec.mockapi.io/collaborators", values);
+      const result = await axios.post("https://msdocs-python-webapp-quickstart-rrr.azurewebsites.net/collaborators", values);
       setName(values.name);
       setData(result.data);
     } catch(error) {
