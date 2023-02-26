@@ -37,9 +37,10 @@ type PhotoProps = {
 };
 
 const Photo = ({ url }: PhotoProps) => {
+  const size = 100;
   return (
     <>
-      <img src={url} alt="artist photo" />
+      <img src={url} alt="artist photo" width={size} height={size}/>
     </>
   );
 };
@@ -56,16 +57,30 @@ type PhotoCellProps = {
   };
 };
 
+const formatData = (collaboratorData: any): any => {
+  return collaboratorData.map((collaborator: any) => {
+    const genreNamesArr = collaborator.genres.split(',');
+    const genresArr = genreNamesArr.map((name: string) => genre.find(g => g.name === name.trim()));
+    const genres = genresArr.map((g: Option) => g.id);
+    return ({
+      genres,
+      image: collaborator.image_url,
+      compatibilityScore: 0,
+      name: collaborator.name,
+    });
+  })
+};
+
 const Search = () => {
   const [data, setData] = useState([]);
   const [name, setName] = useState(null);
 
   const onSubmit = async (values: any, cb: Function) => {
-    console.log(values);
     try {
+      console.log(values);
       const result = await axios.post("https://msdocs-python-webapp-quickstart-rrr.azurewebsites.net/collaborators", values);
       setName(values.name);
-      setData(result.data);
+      setData(formatData(result.data.obj.obj));
     } catch(error) {
       console.log(error);
       alert("API Request failed!");
