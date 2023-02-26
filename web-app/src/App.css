@@ -79,7 +79,7 @@ h2 {
 .text-lead {
   font-size: 1.875rem;
   line-height: 1.556;
-  color: var( --base075);
+  color: var(--base075);
 }
 
 .searchForm input,
@@ -92,6 +92,7 @@ h2 {
 
 .searchForm button {
   margin-top: 1rem;
+  color: var(--base00);
 }
 
 .searchForm form {
@@ -151,4 +152,22 @@ h2 {
 
 .results h3 {
   font-size: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+  #root {
+    padding: 1rem 0.5rem;
+  }
+
+  .table th,
+  .table td {
+    padding: 0.1rem;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .table-container {
+    width: 95vw;
+    overflow: scroll;
+  }
 }

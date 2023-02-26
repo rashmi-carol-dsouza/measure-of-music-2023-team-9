@@ -145,7 +145,9 @@ const Search = () => {
             Hey <span className="text-green">{name}</span>
           </h3>
           <p>Here are the artists we think you should collaborate with</p>
-          <Table columns={columns} data={data} />
+          <div className="table-container">
+            <Table columns={columns} data={data} />
+          </div>
         </div>
       )}
     </div>
