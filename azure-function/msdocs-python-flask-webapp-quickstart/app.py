@@ -30,14 +30,23 @@ def hello():
    else:
        print('Request for hello page received with no name or blank name -- redirecting')
        return redirect(url_for('index'))
+   
+mock_data = "web-app/mock-data/db.json"
 
 @app.route('/collaborators', methods=['POST'])
 def collaborators():
     # access request data
-    data = request.get_json()
-    accessToken = authorize()
+    try:
+        data = request.get_json()
+        accessToken = authorize()
+        return getCollaborators(data, accessToken)
+    except:
+        return jsonify(mock_data)
+
+        
+
     
-    return getCollaborators(data, accessToken)
+    
 
 if __name__ == '__main__':
    app.run(debug=True)
