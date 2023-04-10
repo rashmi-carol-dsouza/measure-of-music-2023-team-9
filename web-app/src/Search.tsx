@@ -84,7 +84,7 @@ const Search = () => {
     } catch(error) {
       console.log(error);
       setName(values.name);
-      setData(mockData.collaborators);
+      setData(mockData.collaborators as any);
     } finally {
       cb();
     }
