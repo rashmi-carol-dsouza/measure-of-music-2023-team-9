@@ -4,6 +4,7 @@ import Table from "./Table";
 import axios from "axios";
 
 import { genre } from './options';
+import  mockData from './assets/db.json';
 
 type GenreProps = {
   values: string[];
@@ -57,7 +58,7 @@ type PhotoCellProps = {
   };
 };
 
-const formatData = (collaboratorData: any): any => {
+const formatAPIResponse = (collaboratorData: any): any => {
   return collaboratorData.map((collaborator: any) => {
     const genreNamesArr = collaborator.genres.split(',');
     const genresArr = genreNamesArr.map((name: string) => genre.find(g => g.name === name.trim()));
@@ -77,13 +78,13 @@ const Search = () => {
 
   const onSubmit = async (values: any, cb: Function) => {
     try {
-      console.log(values);
       const result = await axios.post("https://msdocs-python-webapp-quickstart-rrr.azurewebsites.net/collaborators", values);
       setName(values.name);
-      setData(formatData(result.data.collaborators));
+      setData(formatAPIResponse(result.data.collaborators));
     } catch(error) {
       console.log(error);
-      alert("API Request failed!");
+      setName(values.name);
+      setData(mockData.collaborators);
     } finally {
       cb();
     }
